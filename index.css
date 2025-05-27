@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(231, 35, 74);
+    color:rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.todo-app{
+    width: 440px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 570px;
+    margin-top: 150px;
+}
+.head img{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+.body input{
+    width: 70%;
+    margin-left: 13px;
+    height: 35px;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+.body button{
+    width: 80px;
+    height: 42px;
+    background-color: rgb(231, 35, 75);
+    color: white;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.tick{
+    width: 28px;
+    height: 28px;
+    margin-left: 15px;
+    margin-top: 21px;
+}
+.list{
+    display: flex;
+    margin-top: -10px;
+}
+.list h3{
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.delete{
+    width: 28px;
+    height: 28px;
+    padding-left: 390px;
+    margin-top: 22px;
+    position: fixed;
+}
